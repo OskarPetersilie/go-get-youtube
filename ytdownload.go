@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	youtube "github.com/knadh/go-get-youtube"
+	youtube "github.com/knadh/go-get-youtube/youtube"
 )
 
 func intro() {
