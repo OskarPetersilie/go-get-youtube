@@ -637,7 +637,7 @@ func parseMeta(video_id, query_string string) (*Video, error) {
 		Title:         player_response.VideoDetails.Title,
 		Author:        player_response.VideoDetails.Author,
 		Keywords:      fmt.Sprint(player_response.VideoDetails.Keywords),
-		Thumbnail_url: player_response.VideoDetails.Thumbnail.Thumbnails[0].URL,
+		Thumbnail_url: "# TODO WIP fixplayer_response.VideoDetails.Thumbnail.Thumbnails[0].URL",
 	}
 
 	v, _ := strconv.Atoi(player_response.VideoDetails.ViewCount)
